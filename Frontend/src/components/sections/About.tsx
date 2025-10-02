@@ -41,7 +41,7 @@ export const About: React.FC = () => {
           >
             <div className="relative">
               <img
-                src="https://i.postimg.cc/vBxBssCY/Chat-GPT-Image-Aug-8-2025-02-41-28-PM.png"
+                src="https://i.postimg.cc/26f29Lqx/Whats-App-Image-2025-10-02-at-7-48-16-PM.jpg"
                 alt="About Hammad Ali"
                 className="rounded-2xl shadow-2xl w-full max-w-md mx-auto"
               />

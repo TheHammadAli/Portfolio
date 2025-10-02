@@ -18,7 +18,7 @@ export interface Experience {
   duration: string;
   location: string;
   description: string[];
-  type: 'freelance' | 'education';
+  type: 'freelance' | 'education'|'mobile';
 }
 
 export interface Skill {

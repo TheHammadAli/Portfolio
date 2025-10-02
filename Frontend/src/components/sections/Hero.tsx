@@ -98,7 +98,7 @@ export const Hero: React.FC = () => {
               <Button
   variant="outline"
   size="lg"
-  href="/Hammad_Ali_Resume.pdf"
+  href="/Hammad.pdf"
   target="_blank"
   rel="noopener noreferrer"
   className="group"
@@ -155,7 +155,7 @@ export const Hero: React.FC = () => {
               
               {/* Profile Image */}
               <motion.img
-                src="https://i.postimg.cc/vBxBssCY/Chat-GPT-Image-Aug-8-2025-02-41-28-PM.png"
+                src="https://i.postimg.cc/26f29Lqx/Whats-App-Image-2025-10-02-at-7-48-16-PM.jpg"
                 alt="Hammad Ali"
                 className="absolute inset-4 w-full h-full object-cover rounded-full border-4 border-white dark:border-gray-800 shadow-2xl"
                 whileHover={{ scale: 1.05 }}
