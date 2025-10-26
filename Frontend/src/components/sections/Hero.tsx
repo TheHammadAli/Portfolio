@@ -96,14 +96,14 @@ export const Hero: React.FC = () => {
               </Button>
               
               <Button
-  variant="outline"
-  size="lg"
-  href="\Hammadali.pdf"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="group"
+ variant="primary"
+ size="lg"
+ href="\HammadAli.pdf"
+ target="_blank"
+ rel="noopener noreferrer"
+ className="group"
 >
-  Resume
+ Resume
 </Button>
 
             </motion.div>
