@@ -98,7 +98,7 @@ export const Hero: React.FC = () => {
               <Button
   variant="outline"
   size="lg"
-  href="/Hammad.pdf"
+  href="\Hammadali.pdf"
   target="_blank"
   rel="noopener noreferrer"
   className="group"
