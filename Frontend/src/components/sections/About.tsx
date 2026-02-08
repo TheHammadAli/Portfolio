@@ -95,32 +95,7 @@ export const About: React.FC = () => {
           </motion.div>
         </div>
 
-        {/* Stats */}
-       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 max-w-4xl mx-auto place-items-start sm:place-items-center">
-  {stats.map((stat, index) => {
-    const Icon = stat.icon;
-    return (
-      <Card key={stat.label} delay={index * 0.1} className="p-8 text-center">
-        <motion.div
-          whileHover={{ scale: 1.1, rotate: 5 }}
-          className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full mb-4"
-        >
-          <Icon className="h-8 w-8 text-white" />
-        </motion.div>
-        <motion.h4
-          className="text-4xl font-bold text-gray-900 dark:text-white mb-2"
-          initial={{ opacity: 0, scale: 0.5 }}
-          whileInView={{ opacity: 1, scale: 1 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.5, delay: 0.5 + index * 0.1 }}
-        >
-          {stat.value}
-        </motion.h4>
-        <p className="text-gray-600 dark:text-gray-400">{stat.label}</p>
-      </Card>
-    );
-  })}
-</div>
+    
 
       </div>
     </section>

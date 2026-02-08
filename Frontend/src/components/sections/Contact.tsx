@@ -18,8 +18,8 @@ const contactInfo = [
   {
     icon: Phone,
     label: 'Phone',
-    value: '+923219752997',
-    href: 'https://wa.me/923219752997'
+    value: '+923231005422',
+    href: 'https://wa.me/923231005422'
   },
   {
     icon: MapPin,
